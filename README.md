@@ -7,60 +7,59 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Sistem Informasi Pembayaran Air Pamsimas Berbasis Web Terintegrasi Payment Gateway
+Sistem Informasi Pembayaran Air Pamsimas berbasis web yang terintegrasi dengan Payment Gateway Midtrans dibuat dengan Framework Laravel 10 dan database MySQL. Aplikasi ini memiliki 3 role user, yaitu admin, petugas pencatatatan, dan pelanggan. 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Sistem ini memiliki 2 jenis pembayaran yaitu offline melalui kasir dan pembayaran mandiri oleh pelanggan melalui payment gateway Midtrans.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Fitur
+Berikut adalah beberapa fitur yang mungkin dimiliki oleh sistem tersebut :
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+**Role Admin :**
+- Data master periode pemakaian
+- Data master tahun
+- Data master manajemen pelanggan
+- Data master tarif (tarif per m³, beban, denda)
+- Lihat pemakaian air 
+- Catat pemakaian air (Support scan Qr Code pelanggan)
+- Menu Transaksi pembayaran offline langsung melalui admin
+- Riwayat pembayaran
+- Cetak struk pembayaran
+- Laporan pembayaran
 
-## Learning Laravel
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Role Petugas Pencatat Pemakaian Air :**
+- Data master periode pemakaian
+- Data master tahun
+- Lihat pemakaian air 
+- Catat pemakaian air (Support scan Qr Code pelanggan)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+**Pelanggan :**
+- Lihat pemakaian air
+- Cek tagihan
+- Bayar tagihan melalui payment gateway Midtrans
+- Cek tagihan terbayar
+- Cetak bukti pembayaran
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Demo
+Bisa kunjungi alamat ini : https://pamsimas.idewebku.com
 
-### Premium Partners
+**Admin :**
+- Username : admin@gmail.com
+- Password : 1234
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+**Petugas Pencatatat Tagihan :**
+- Username : petugas@gmail.com
+- Password : 1234
 
-## Contributing
+**Pelanggan :**
+- Tambahkan sendiri di menu admin > pelanggan
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Screenshot_155](https://github.com/dwipurnomo12/pamsimas/assets/105181667/44875c30-65ca-43b2-8cc7-c5bd97b821be)
+![Screenshot_105](https://github.com/dwipurnomo12/pamsimas/assets/105181667/0d18b884-f101-4775-b7c5-a85bbd4c9dd1)
+![Screenshot_104](https://github.com/dwipurnomo12/pamsimas/assets/105181667/8579760b-5d64-4f90-813f-59a043ca29b2)
+![Screenshot_103](https://github.com/dwipurnomo12/pamsimas/assets/105181667/92638c47-d5e3-43b8-aca1-59d873bba837)
+![Screenshot_106](https://github.com/dwipurnomo12/pamsimas/assets/105181667/2dbb303a-30cc-41c7-90d1-f5194ee24ff9)
